@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FDD11E;
+}
+
+#item-1{
+    width: 100vw;
+    height: 80vh;
+}
+
+#item-2{
+    width: 100vw;
+    height: 20vh;
+    background-color: #FF555A;
+    display: flex;  
+    justify-content: center;
+}
+
+span{
+    border-top: 50px solid #FDD11E;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+.container{
+    position:relative;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #B19215;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #7C660F;
+    font-family: 'Roboto', sans-serif;
+}
